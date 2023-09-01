@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f18781-1ca1-4c45-9652-b8f487ba1615" name="Changes" comment="springboot-2 练习测试">
-      <change afterPath="$PROJECT_DIR$/springboot-3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-3/src/main/java/com/atguigu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-3/src/main/java/com/atguigu/config/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-3/src/main/java/com/atguigu/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-3/src/main/java/com/atguigu/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-3/src/main/java/com/atguigu/interceptor/MyInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-3/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="84f18781-1ca1-4c45-9652-b8f487ba1615" name="Changes" comment="springboot-3 练习测试">
+      <change afterPath="$PROJECT_DIR$/springboot-4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-4/src/main/java/com/atguigu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-4/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-3/src/main/java/com/atguigu/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-3/src/main/java/com/atguigu/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "D:/project/springboot/springboot-3/src/main/webapp",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "99410adf916468bcb0a8de2f9c33021c"
+    "spring.configuration.checksum": "edbce9909c1c10179ee6ede39d091510"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -138,7 +135,8 @@
       <workItem from="1693461769133" duration="1514000" />
       <workItem from="1693463953696" duration="702000" />
       <workItem from="1693465021090" duration="3303000" />
-      <workItem from="1693469281832" duration="1508000" />
+      <workItem from="1693469281832" duration="4084000" />
+      <workItem from="1693526875424" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot project init.">
       <created>1693449609280</created>
@@ -196,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693464368656</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="springboot-3 练习测试">
+      <created>1693470962874</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693470962875</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +224,7 @@
     <MESSAGE value="spring boot project&#10;初始化项目配置" />
     <MESSAGE value="springboot 初体验 Hello案例测试" />
     <MESSAGE value="springboot-2 练习测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot-2 练习测试" />
+    <MESSAGE value="springboot-3 练习测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot-3 练习测试" />
   </component>
 </project>
