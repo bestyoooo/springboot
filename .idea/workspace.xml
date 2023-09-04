@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f18781-1ca1-4c45-9652-b8f487ba1615" name="Changes" comment="springboot-3 练习测试">
-      <change afterPath="$PROJECT_DIR$/springboot-4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-4/src/main/java/com/atguigu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-4/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jedis-5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jedis-5/src/main/java/com/atguigu/redis/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jedis-5/src/main/java/com/atguigu/redis/config/AppRedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jedis-5/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jedis-5/src/test/java/com/atguigu/redis/test/RedisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-3/src/main/java/com/atguigu/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-3/src/main/java/com/atguigu/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,30 +44,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/project/springboot/springboot-3/src/main/webapp",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "edbce9909c1c10179ee6ede39d091510"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/project/springboot/springboot-jedis-5&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bff0756431fdef34018f8d30d7e9756b&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\springboot\springboot-jedis-5" />
       <recent name="D:\project\springboot\springboot-3\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\springboot\springboot-3\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu" />
+      <recent name="com.atguigu.test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,51 +82,104 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main (2)">
-    <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.Main" />
+  <component name="RunManager" selected="JUnit.RedisTest">
+    <configuration name="JedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-jedis-5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.*" />
+          <option name="PATTERN" value="com.atguigu.jedis.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.jedis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.jedis.test.JedisTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-3" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.Main" />
+    <configuration name="RedisTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-jedis-5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.*" />
+          <option name="PATTERN" value="com.atguigu.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.redis.RedisTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.Main" />
+    <configuration name="RedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-jedis-5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.*" />
+          <option name="PATTERN" value="com.atguigu.redis.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.redis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.redis.test.RedisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-jedis-5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.SpringRedisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-jedis-5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.redis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.redis.test.SpringRedisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestXx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-jedis-5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.redis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.redis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.redis.test.TestXx" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Main (2)" />
-        <item itemvalue="Spring Boot.Main (1)" />
-        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="JUnit.RedisTest" />
+        <item itemvalue="JUnit.JedisTest" />
+        <item itemvalue="JUnit.RedisTest (1)" />
+        <item itemvalue="JUnit.TestXx" />
+        <item itemvalue="JUnit.SpringRedisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +196,10 @@
       <workItem from="1693463953696" duration="702000" />
       <workItem from="1693465021090" duration="3303000" />
       <workItem from="1693469281832" duration="4084000" />
-      <workItem from="1693526875424" duration="704000" />
+      <workItem from="1693526875424" duration="1147000" />
+      <workItem from="1693634467484" duration="2537000" />
+      <workItem from="1693637042675" duration="3419000" />
+      <workItem from="1693787006076" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot project init.">
       <created>1693449609280</created>
@@ -201,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693470962875</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="springboot-3 练习测试">
+      <created>1693527975419</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693527975419</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
