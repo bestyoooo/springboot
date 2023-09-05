@@ -1,4 +1,4 @@
-package com.atguigu.redis.test;
+package com.atguigu.redis;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

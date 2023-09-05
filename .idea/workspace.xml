@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f18781-1ca1-4c45-9652-b8f487ba1615" name="Changes" comment="springboot-3 练习测试">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jedis-5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jedis-5/src/main/java/com/atguigu/redis/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jedis-5/src/main/java/com/atguigu/redis/config/AppRedisConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jedis-5/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jedis-5/src/test/java/com/atguigu/redis/test/RedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jedis-5/src/main/java/com/atguigu/redis/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jedis-5/src/main/java/com/atguigu/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jedis-5/src/main/java/com/atguigu/redis/config/AppRedisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jedis-5/src/main/java/com/atguigu/config/AppRedisConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jedis-5/src/test/java/com/atguigu/redis/test/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jedis-5/src/test/java/com/atguigu/redis/RedisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +66,7 @@
       <recent name="D:\project\springboot\springboot-3\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu.redis" />
       <recent name="com.atguigu" />
       <recent name="com.atguigu.test" />
     </key>
@@ -82,7 +78,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RedisTest">
+  <component name="RunManager" selected="JUnit.JedisTest">
     <configuration name="JedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-jedis-5" />
       <extension name="coverage">
@@ -128,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringRedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-jedis-5" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +132,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.SpringRedisTest" />
+      <option name="PACKAGE_NAME" value="com.atguigu.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.redis.RedisTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +171,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedisTest (1)" />
         <item itemvalue="JUnit.RedisTest" />
         <item itemvalue="JUnit.JedisTest" />
-        <item itemvalue="JUnit.RedisTest (1)" />
         <item itemvalue="JUnit.TestXx" />
-        <item itemvalue="JUnit.SpringRedisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +194,7 @@
       <workItem from="1693526875424" duration="1147000" />
       <workItem from="1693634467484" duration="2537000" />
       <workItem from="1693637042675" duration="3419000" />
-      <workItem from="1693787006076" duration="316000" />
+      <workItem from="1693787006076" duration="2377000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot project init.">
       <created>1693449609280</created>
@@ -271,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693527975419</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="springboot-3 练习测试">
+      <created>1693787333470</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693787333470</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,4 +1,4 @@
-package com.atguigu.redis.config;
+package com.atguigu.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
